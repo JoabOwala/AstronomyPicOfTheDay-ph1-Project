@@ -17,7 +17,7 @@ body {
   .foot{
     background-color: #0B2447;
     margin-top: 2px;
-    padding: 25px 0px 5px 15px;
+    padding: 25px 0px 24px 15px;
   }
   .title {
     background-color: #333333;
@@ -31,4 +31,12 @@ body {
 
   .content {
     color: #3e8fde;
+  }
+
+  img {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    height: 40vw;
+    width: 60vw;
   }
