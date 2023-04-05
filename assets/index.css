@@ -40,3 +40,22 @@ body {
     height: 40vw;
     width: 60vw;
   }
+  #info {
+    padding-bottom: 15px;
+  }
+
+  #date {
+    background-color: #333333;
+    color: #3e8fde;
+    padding: 0px 0px 5px 5px;
+  }
+  #showing {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    /* background-color: #0B2447; */
+    
+  }
+  #one{
+    display: inline-flex;
+  }
