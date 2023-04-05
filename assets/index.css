@@ -1,11 +1,23 @@
 body {
     background-color: #ebebeb;
   }
+  .midBody{
+    border: 2px solid #0B2447;
+    height: 34pc;;
+    width: 79.5pc;
+    margin-left: 1pc;
+
+  }
 
 .heading {
     background-color: #0B2447;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     padding: 5px 0px 5px 15px;
+  }
+  .foot{
+    background-color: #0B2447;
+    margin-top: 2px;
+    padding: 25px 0px 5px 15px;
   }
   .title {
     background-color: #333333;
