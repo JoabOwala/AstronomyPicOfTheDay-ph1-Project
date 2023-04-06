@@ -30,24 +30,27 @@ body {
     height: 35rem;
     width: 50rem;
     flex: 2;
-    border: solid green;
+    /* border: solid green; */
 }
 .title{
     height: 2rem;
     width: 40rem;
-    border: solid red;
+    border: solid black;
+    border-width: thin;
 }
 .date{
     height: 2rem;
     width: 40rem;
-    border: solid yellow;
+    border: solid black;
+    border-width: thin;
 }
 .description{
     margin-bottom: 0.5rem;
     height: 19rem;
     width: 40rem;
     flex: 1;
-    border: solid blue;
+    border: solid black;
+    border-width: thin;
 }
 .comments{
     height: 8rem;
