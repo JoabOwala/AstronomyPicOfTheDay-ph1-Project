@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () =>{
     
-    console.log('DOM IS READY')
 // Defining characters for the empty and full hearts.
 const fullHeart = '♥'
 const emptyHeart = '♡'
@@ -9,6 +8,9 @@ const finalImg = document.querySelector('#image')
 const finalTitle = document.querySelector('.title')
 const finalDate = document.querySelector('.date')
 const finalDescription = document.querySelector('.description')
+const sab = document.querySelector('input')
+const fom = document.getElementById('comments-form')
+const myHeartClick = document.querySelectorAll("#heart")
 
 //retrive data from API
 fetch(baseURL)
@@ -22,9 +24,10 @@ function renderData(data){
     finalDate.innerHTML = `${data.date}`
     finalDescription.innerHTML = `${data.explanation}`    
 }
-const myHeartClick = document.querySelectorAll("#heart")
 
+//like emoji
 function heartCallback(e){
+    e.preventDefault()
     const heartEmoji = e.target
 
     if(heartEmoji.innerHTML === emptyHeart){
@@ -36,6 +39,23 @@ function heartCallback(e){
 
 for(const emoji of myHeartClick){
     emoji.addEventListener("click", heartCallback)
+  }
+
+  //clear button
+document.addEventListener('click',clearBut)
+  function clearBut(){
+    document.querySelector('form').reset()
+  }
+
+  //submit button
+  sab.document.addEventListener('click',fomSubmit)
+
+  function fomSubmit(){
+    if(fom.comment.value == ""){
+      alert("Please enter some text first");
+    }else{
+      document.comment.submit.submit();
+    }
   }
 
 })
