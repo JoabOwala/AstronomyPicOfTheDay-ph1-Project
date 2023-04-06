@@ -53,16 +53,16 @@ body {
     height: 8rem;
     width: 40rem;
     flex: 1;
-    border: solid indigo;
+    /* border: solid indigo; */
 }
 .btns{
     height: 2rem;
     width: 40rem;
-    border: solid maroon;
+    /* border: solid maroon; */
 }
 .like{
     margin-left: 1rem;
-    height: 2rem;
+    height: 3rem;
     width: 50rem;
     border: solid pink;
 }
