@@ -48,7 +48,7 @@ document.addEventListener('click',clearBut)
   }
 
   //submit button
-  sab.document.addEventListener('click',fomSubmit)
+  sab.addEventListener('click',fomSubmit)
 
   function fomSubmit(){
     if(fom.comment.value == ""){

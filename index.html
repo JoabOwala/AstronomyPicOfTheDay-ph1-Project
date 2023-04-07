@@ -2,54 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A P O D</title>
-    <link rel="stylesheet" href="assets/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/index.css">     
 </head>
 <body>
-    <!-- navbar -->
-    <div class="heading">
-        <div class="item">
-            <h2 class="ui header">
-                <i class="fa-solid fa-satellite" style="color: #FFD93D;"></i>
-                <div class="content">A P O D</div>
-                <div class="sub header" id="subtitle">Astronomy Picture of the Day</div>
-            </h2>
-        </div>
-    </div>
+    <!-- navbar / header -->
+    <header>
+		<div class="container">
+			<h1>Astronomy Picture of the Day</h1>
+		</div>
+	</header>
 
-        <div class="container">
-                <img
-                id="image"
-                src="assets/placeholderImage.png"
-                alt="[IMAGE TITLE]"
-              />
-            <div class="nestedContainer">
-                <div class="title">[TITLE]</div>
-                <div class="date">[DATE]</div>
-                <div class="description">[DESCRIPTION GOES HERE]</div>
-                <div class="comments">
-                    <form id="comments-form" class="padding">
-                        <textarea id="comment" name="comment" placeholder="Leave a comment.."></textarea>
-                      </form>
-                </div>
-
-                <!-- buttons -->
-                <div class="btns">
-                    <button id="but">Delete</button>
-                    <input id="sabm" type="submit" value="Submit" name="submit">
-                </div>
-            </div>
-
-            <!-- like heart emoji -->
-            <div class="like">
-                <span class="like-glyph" id="heart">&#x2661;</span>
-            </div>
-        </div>  
-        
+    <!-- main body -->
+    <main>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card">
+						<img class="card-img-top" id="apod-image" src="" alt="Astronomy Picture of the Day">
+						<div class="card-body">
+							<h5 class="card-title" id="apod-title"></h5>
+							<p class="card-text" id="apod-explanation"></p>
+							<p class="card-text" id="apod-date"></p>
+						</div>
+						<div class="card-footer">
+							<button class="like-button" id="like-button">Like</button>
+							<span class="like-count" id="like-count">0</span>
+						</div>
+						<div class="card-footer">
+							<h5>Comments</h5>
+							<form class="comment-form" id="comment-form">
+								<div class="form-group">
+									<input type="text" class="form-control" id="name-input" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" id="comment-input" rows="3" placeholder="Comment"></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary" id="comment-submit">Submit</button>
+							</form>
+							<ul class="comment-list" id="comment-list"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+    <!-- footer -->
+    <footer>
+		<div class="container">
+			<p>&copy;Astronomy Picture of the Day</p>
+		</div>
+	</footer>    
     <script src="src/index.js"></script>
 </body>
 </html>

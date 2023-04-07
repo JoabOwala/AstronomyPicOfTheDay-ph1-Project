@@ -24,11 +24,14 @@ body {
     gap: 1rem;
   }
  
-#image{
+.image{
     margin-left: 1rem;
-    height: 35rem;
-    width: 50rem;
-    flex: 2;  
+    flex: 0;  
+    height: 400px;
+    width: 800px;
+}
+img{
+  
 }
 .title{
     height: 2rem;
@@ -46,14 +49,14 @@ body {
     margin-bottom: 0.5rem;
     height: 19rem;
     width: 40rem;
-    flex: 1;
+    flex: 0;
     border: solid black;
     border-width: thin;
 }
 .comments{
     height: 8rem;
     width: 40rem;
-    flex: 1;
+    flex: 0;
 }
 .btns{
     height: 2rem;
