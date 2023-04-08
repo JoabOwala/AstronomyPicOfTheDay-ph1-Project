@@ -1,47 +1,66 @@
-# AstronomyPicOfTheDay-ph1-Project
-Astronomy Picture of the Day (APOD)enables a user to explore image of the day from NASA daily shots.
+# AstronomyPicOfTheDay-ph1-Project (A P O D)
+This is a simple web application that displays the Astronomy Picture of the Day from the NASA API. Users can also like the picture and leave comments on it.
+
 
 ## Description
 
-APOD allows a user to be able t view the Astronomy picture of the day, the date it was taken and the description of the image. The user should be able to like the picture and also leave a comment.
+This project displays the Astronomy Picture of the Day (APOD) retrieved from the NASA API. The page includes the APOD image, title, explanation, and date, along with a like button and a comments section.
+
 
 ## Getting Started
 
-### Dependencies
-
-* Use any of the browsers below
-#1) Firefox
-#2) Google Chrome
-#3) Microsoft Edge
-#4) Apple Safari
-#5) Opera
-#6) Brave
-#7) Vivaldi
-#8) DuckDuckGo
-#9) Chromium
-#10) Epic
-
-
-### Installing
-
-* No download or any instalation is required once you have a working web browser
-* Follow link => https://joabowala.github.io/AstronomyPicOfTheDay-ph1-Project/
-
 ### Executing program
 
+#1) Clone this repository.
 ```
-Follow link => https://joabowala.github.io/AstronomyPicOfTheDay-ph1-Project/
+git clone https://github.com/JoabOwala/apod.git
+
 ```
+
+
+#2) Open the ```index.html``` file in your browser.
+
+The web page will load and display the Astronomy Picture of the Day along with its title, explanation, and date. Users can like the picture by clicking on the "Like" button, and the number of likes will be displayed next to the button.
+
+Users can also leave comments on the picture by filling out the comment form at the bottom of the page. Simply enter your name and comment in the appropriate fields and click the "Submit" button. Your comment will be added to the list of comments below the form
+
+
+#3) 
+
+![A P O D navigation](assets/apod.gif)
+
+
+### How to Access online
+
+* Follow link => https://joabowala.github.io/AstronomyPicOfTheDay-ph1-Project/
+
+
+### Technologies
+
+* HTML
+* CSS
+* JavaScript
+
+### API
+
+This project uses the NASA API to fetch the Astronomy Picture of the Day. You can get an API key by following the instructions on the NASA API website.
+
+* Functionality
+The JavaScript code fetches the APOD from the NASA API and displays it on the page. The like button increments a counter each time it is clicked. The comments form allows users to submit a name and comment, which are added to the comment section below.
+
+* Styling
+The page is styled using custom CSS. The font family used is Montserrat. The color scheme is dark with white and orange accents.
+
 
 ## Help
 
-Depending on the quality of the image and internet speeds, loading times may differ
-```
-```
+Depending on the quality of the image and internet speeds, loading times may differ.
+For questions write an email to owalajoab@gmail.com
+
 
 ## Authors
-Joab Owala
-[@Ojoab](owalajoab@gmail.com)
+This project was created by Joab Owala
+[https://github.com/JoabOwala](owalajoab@gmail.com)
 
 
 ## Version History
@@ -56,4 +75,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 Inspiration, code snippets.
-* 
+* freefrontend.com/bootstrap-code-examples/
+* freefrontend.com/css-cards/
+* Bootstrap framework 
