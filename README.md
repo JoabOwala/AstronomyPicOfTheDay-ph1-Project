@@ -73,7 +73,7 @@ This project was created by Joab Owala
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
-
+* https://api.nasa.gov/
 Inspiration, code snippets.
 * freefrontend.com/bootstrap-code-examples/
 * freefrontend.com/css-cards/
