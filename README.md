@@ -1,4 +1,4 @@
-# AstronomyPicOfTheDay-ph1-Project (A P O D)
+# AstronomyPicOfTheDay (A P O D)
 This is a simple web application that displays the Astronomy Picture of the Day from the NASA API. Users can also like the picture and leave comments on it.
 
 
